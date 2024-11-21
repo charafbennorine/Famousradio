@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إذاعتي</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #0078D7;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    header h1 {
+      margin: 0;
+    }
+    main {
+      text-align: center;
+      padding: 20px;
+    }
+    .player {
+      margin: 20px auto;
+      max-width: 300px;
+      border: 2px solid #0078D7;
+      border-radius: 10px;
+      padding: 10px;
+      background: #fff;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>إذاعتي</h1>
+    <p>استمتع بأجمل الأوقات مع إذاعتنا المباشرة</p>
+  </header>
+
+  <main>
+    <section class="player">
+      <h2>استمع الآن</h2>
+      <audio controls autoplay>
+        <source src="https://stream.zeno.fm/orde3ebxeklvv" type="audio/mpeg">
+        متصفحك لا يدعم مشغل الصوت.
+      </audio>
+    </section>
+    <section>
+      <h2>جدول البرامج</h2>
+      <p>قريبا سنضيف جدول البرامج الخاص بالإذاعة.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 إذاعتي - جميع الحقوق محفوظة</p>
+  </footer>
+</body>
+</html>
